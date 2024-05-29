@@ -1,0 +1,38 @@
+
+.card {
+    width: 400px; /* Set the width of the card */
+    height: auto; /* Set the height of the card */
+    border: 1px solid #ccc; /* Add a border for visual clarity */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for depth */
+   
+  }
+
+  .card-header{
+    text-align: center;
+    align-items: center;
+
+  }
+
+  .card-body{
+    align-items: center;
+    padding: 20px;
+  
+  }
+
+ 
+ .auth-toggle-link{
+  color: blue;
+  font-size: 14px;
+  margin-top: 50px;
+  text-align: left;
+  cursor: pointer;
+
+ }
+
+ .btn{
+  align-items: center;
+  background: rgb(75, 75, 245);
+  margin-top: 2%;
+  margin-bottom: 3%;
+}

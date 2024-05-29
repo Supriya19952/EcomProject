@@ -1,0 +1,20 @@
+table{
+    text-align: left;
+    color: black;
+    border-collapse: collapse;
+    width: auto;
+}
+table td, table th{
+    border: 1px solid black;
+    padding: 10px;
+    min-height: 160pxs;
+}
+
+img{
+    width: 100px;
+    width: 100px;
+}
+
+.adjust-update-link{
+    margin-left: 15px;
+}

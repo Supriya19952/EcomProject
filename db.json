@@ -1,0 +1,135 @@
+{
+  "seller": [
+    {
+      "id": "334a",
+      "name": "Samar",
+      "email": "samar@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "d595",
+      "name": "Supriya",
+      "email": "supriya@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "5590",
+      "name": "Ram",
+      "email": "ram@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "0037",
+      "name": "abc",
+      "email": "abc@gmailcom",
+      "password": "123456"
+    },
+    {
+      "id": "5312",
+      "name": "Peter",
+      "email": "peter@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "1349",
+      "name": "Akshay",
+      "email": "akshay@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "982f",
+      "name": "peter",
+      "email": "sapkalsupriya1995@gmail.com",
+      "password": "123456"
+    }
+  ],
+  "products": [
+    {
+      "name": "Samsung  Galaxy",
+      "price": "1000",
+      "category": "Mobile",
+      "color": "Grey",
+      "description": "Good quality does not get hang",
+      "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6257/6257867ld.jpg",
+      "id": "3b1a"
+    },
+    {
+      "id": "a162",
+      "name": "iphone",
+      "price": "20000",
+      "category": "Mobile",
+      "color": "Grey",
+      "description": "good quality",
+      "image": "https://i5.walmartimages.com/asr/ee37fe6f-7037-4503-bd72-ca42e5bcad3d_1.158bd82849fe24b6b34a1f7ad1445204.jpeg"
+    },
+    {
+      "id": "5745",
+      "name": "iphone",
+      "price": "42000",
+      "category": "Laptop",
+      "color": "grey",
+      "description": "nice does not get hang",
+      "image": "https://pluspng.com/img-png/laptop-hd-png-acer-aspire-e1-530-laptop-intel-pentium-2217u-processor-15-6-hd-1178.png"
+    },
+    {
+      "id": "0e46",
+      "name": "dell",
+      "price": "25000",
+      "category": "Laptop",
+      "color": "black",
+      "description": "nice to use",
+      "image": "https://i5.walmartimages.com/asr/32b3ca47-75ff-4612-a5f2-fb045571f181_1.97bf0c4d6918debf7fc9c576883ee72a.jpeg"
+    },
+    {
+      "id": "de79",
+      "name": "Lenova Laptop",
+      "price": "50000",
+      "category": "Laptop",
+      "color": "black",
+      "description": "nice to use rough an tough",
+      "image": "https://betanews.com/wp-content/uploads/2014/11/front.jpg"
+    },
+    {
+      "id": "8d20",
+      "name": "HP Laptop",
+      "price": "30000",
+      "category": "Laptop",
+      "color": "grey",
+      "description": "HP laptop battery life is very nice",
+      "image": "https://i5.walmartimages.com/asr/d02b9bf6-e3f0-4237-9630-536a57a128dc_1.c313e652a723842bf462dbc4b50f2470.jpeg"
+    },
+    {
+      "id": "5460",
+      "name": "Asus Laptop",
+      "price": "60000",
+      "category": "Laptop",
+      "color": "grey",
+      "description": "Asus 14 Laptop, 12th Gen Intel Core i5-1235U Processor, 16GB, 512GB, 14.0\" (35.56cm) FHD Display, Windows 11 + MSO'21, Spill-Resistant Keyboard, 15 Month Mcafee, Black, Thin & Light- 1.48kg",
+      "image": "https://1.bp.blogspot.com/-uvIaYyL_ZIM/XiWlZcdukTI/AAAAAAAASj4/l7caeg3XBA0WUt12SewufUwiMwbHzKHOgCLcBGAsYHQ/s1600/555.JPG"
+    },
+    {
+      "id": "4440",
+      "name": "Acer Laptop",
+      "price": "40000",
+      "category": "Laptop",
+      "color": "white",
+      "description": "Acer Laptop 15s, 12th Gen Intel Core i5-1235U, 15.6-inch (39.6 cm), FHD, 16GB DDR4, 512GB SSD, Intel Iris Xe Graphics, Backlit KB,MSO,Thin & Light, Dual Speakers (Win 11, Silver, 1.69 kg), fq5330TU",
+      "image": "https://3.bp.blogspot.com/-e2XDwXbxy0U/WNW1RGwttVI/AAAAAAAAIbs/AbmHBMjJeMcKZgwm22NWdgkMcJkfdtmqgCLcB/s1600/Acer-Aspire-E1-570-6803-15.6-Inch-Laptop.jpg"
+    }
+  ],
+  "user": [
+    {
+      "id": "e42e",
+      "name": "Ram",
+      "email": "ram@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "d55f",
+      "name": "abc",
+      "email": "abc@gmail.com",
+      "password": "123456"
+    }
+  ],
+  "cart": []
+}

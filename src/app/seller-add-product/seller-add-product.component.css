@@ -1,0 +1,13 @@
+
+.add-product{
+    margin-top: 50px;
+}
+.add-product h1{
+    margin-bottom: 5%;
+}
+.btn{
+    align-items: center;
+    background: green;
+    margin-top: 2%;
+    margin-bottom: 3%;
+  }

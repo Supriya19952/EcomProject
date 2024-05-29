@@ -1,1 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+
+    font-family: sans-serif;
+}
+
+.container {
+    margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 50px;
+}
+
+.common-form {
+    text-align: center;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 500px;
+}
+
+.form-control {
+    height: 35px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border: 1px solid black;
+    color: black;
+}
+
+.form-button {
+    height: 35px;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+.form-group{
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.error-p{
+    color: red;
+}
+.message-p{
+    color: green;
+    font-size: large;
+}
+.carousel-caption{
+    background-color: rgb(71, 67, 67);
+    border-radius: 5px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: black;
+    border-radius: 5px;
+
+}

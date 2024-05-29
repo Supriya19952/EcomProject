@@ -1,0 +1,53 @@
+.btn{
+    align-items: center;
+    background: green;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-right: 20px;
+  }
+
+  
+.card {
+    width: 450px; /* Set the width of the card */
+    height: auto; /* Set the height of the card */
+    border: 1px solid #ccc; /* Add a border for visual clarity */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for depth */
+    margin-top: 50px;
+  }
+
+  .card-header{
+    text-align: center;
+    align-items: center;
+
+  }
+
+  .card-body{
+    align-items: center;
+    padding: 20px;
+  
+  }
+
+  .error-p{
+    color: red;
+  }
+  /* .user-auth h1{
+     margin-top: 50px;
+     margin-bottom: 80px;
+     color: black;
+     text-align: center;
+ }
+
+ .user-auth{
+  margin-bottom: 100px;
+ } */
+ .user-auth a{
+  color: blueviolet;
+  cursor: pointer;
+}
+
+.invalid-input{
+  color: red;
+  font-size: 12;
+  align-items: start;
+}

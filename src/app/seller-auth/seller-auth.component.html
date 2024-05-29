@@ -1,0 +1,65 @@
+
+<!-- Login Area -->
+
+<div class="container">
+    <div class="common-form">
+       
+        <div id="loginPage" *ngIf="showLogin"  class="card">
+            <div class="card-header">
+                <h2>Seller Login</h2>
+                <p class="error-p">{{authError}}</p>
+            </div>
+            <div class="card-body">
+                <form #sellerLogin="ngForm" (ngSubmit)="login(sellerLogin.value)">
+
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="email" ngModel placeholder="Enter Your Email">
+                    </div>
+                    <div class="form-group">
+
+                        <input type="password" class="form-control" name="password" ngModel
+                            placeholder="Enter your Password">
+                    </div>
+                    <button class="btn" >Login</button>
+                    <div>
+                        <a class="auth-toggle-link" (click)="openSignUp()">Don't Have an Account? Click to SignUp</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+ 
+    </div>
+</div>
+
+<div class="container">
+    <!-- <div class="row"> -->
+    <div  class="common-form">
+        <div *ngIf="!showLogin"  class="card">
+            <div class="card-header">
+                <h2>Seller SignUp</h2>
+            </div>
+            <div class="card-body">
+                <form #sellerSignUp="ngForm" (ngSubmit)="signUp(sellerSignUp.value)">
+                    <div class="form-group">
+
+                        <input type="text" class="form-control" ngModel name="name" placeholder="Enter Your Name">
+                    </div>
+                    <div class="form-group">
+
+                        <input type="email" class="form-control" name="email" ngModel placeholder="Enter Your Email">
+                    </div>
+                    <div class="form-group">
+
+                        <input type="password" class="form-control" name="password" ngModel placeholder="Enter your Password">
+                    </div>
+                    <button class="btn">SignUp</button>
+                    <div>
+                        <a class="auth-toggle-link" (click)="openLogin()" >Already Have an Account? Click to Login</a>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--  </div> -->
+</div>
